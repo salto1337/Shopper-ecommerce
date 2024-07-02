@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+li {
+	list-style: none;
+}
+
+@media only screen and (max-width: 1270px) {
+	section {
+		height: auto;
+		margin-bottom: 100px;
+	}
+	main {
+		height: auto;
+		margin-bottom: 100px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	section {
+		min-height: 100vh;
+	}
+
+	main {
+		min-height: 100vh;
+	}
+}
